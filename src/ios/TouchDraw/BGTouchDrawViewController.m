@@ -132,7 +132,7 @@
 
 - (void)setUpToolbar
 {
-    self.btColour = [[UIBarButtonItem alloc] initWithTitle:@"Colour"
+    self.btColour = [[UIBarButtonItem alloc] initWithTitle:@"颜色"
                                                      style:UIBarButtonItemStylePlain
                                                     target:self
                                                     action:@selector(toggleColour:event:)];
